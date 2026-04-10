@@ -1,0 +1,22 @@
+# Maven build output
+target/
+
+# Google OAuth credentials — NEVER commit these
+credentials.json
+tokens/
+
+# Runtime state file (tracks processed Drive file IDs)
+processed_files.txt
+
+# Application log files
+*.log
+
+# IDE project files
+.idea/
+*.iml
+.vscode/
+*.class
+
+# macOS / Windows
+.DS_Store
+Thumbs.db
